@@ -1,3 +1,5 @@
+#include "../includes/all_includes.h"
+
 // Undone
 double sigma1n2( double s, double sp, double v, double Gamma ){
 	// "Variance" used in Gaussian:

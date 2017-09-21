@@ -1,3 +1,11 @@
 .fuse_hidden*
 *~
 test*
+*.o
+AstroNumInt\.cbp
+
+\.DS_Store
+
+*.depend
+
+*.layout

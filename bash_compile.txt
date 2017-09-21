@@ -1,0 +1,22 @@
+#!/bin/bash
+g++ -Wall -g  -c ./functions/f.cpp -o obj/Debug/functions/f.o
+g++ -Wall -g  -c ./functions/gamma2.cpp -o obj/Debug/functions/gamma2.o
+g++ -Wall -g  -c ./functions/ggamma2.cpp -o obj/Debug/functions/ggamma2.o
+g++ -Wall -g  -c ./functions/L.cpp -o obj/Debug/functions/L.o
+g++ -Wall -g  -c ./functions/mu1n2.cpp -o obj/Debug/functions/mu1n2.o
+g++ -Wall -g  -c ./functions/mu1n3.cpp -o obj/Debug/functions/mu1n3.o
+g++ -Wall -g  -c ./functions/n1.cpp -o obj/Debug/functions/n1.o
+g++ -Wall -g  -c ./functions/n2.cpp -o obj/Debug/functions/n2.o
+g++ -Wall -g  -c ./functions/p1.cpp -o obj/Debug/functions/p1.o
+g++ -Wall -g  -c ./functions/p1n1.cpp -o obj/Debug/functions/p1n1.o
+g++ -Wall -g  -c ./functions/p1n2.cpp -o obj/Debug/functions/p1n2.o
+g++ -Wall -g  -c ./functions/p1n3.cpp -o obj/Debug/functions/p1n3.o
+g++ -Wall -g  -c ./functions/psi.cpp -o obj/Debug/functions/psi.o
+g++ -Wall -g  -c ./functions/psi_prime.cpp -o obj/Debug/functions/psi_prime.o
+g++ -Wall -g  -c ./functions/R.cpp -o obj/Debug/functions/R.o
+g++ -Wall -g  -c ./functions/sigma1n2.cpp -o obj/Debug/functions/sigma1n2.o
+g++ -Wall -g  -c ./functions/sigma1n3.cpp -o obj/Debug/functions/sigma1n3.o
+g++ -Wall -g  -c ./kernels/reduction_sum.cpp -o obj/Debug/kernels/reduction_sum.o
+g++ -Wall -g  -c ./kernels/reduction_variance.cpp -o obj/Debug/kernels/reduction_variance.o
+g++ -Wall -g  -c ./main.cpp -o obj/Debug/main.o
+g++  -o bin/Debug/AstroNumInt obj/Debug/functions/f.o obj/Debug/functions/gamma2.o obj/Debug/functions/ggamma2.o obj/Debug/functions/L.o obj/Debug/functions/mu1n2.o obj/Debug/functions/mu1n3.o obj/Debug/functions/n1.o obj/Debug/functions/n2.o obj/Debug/functions/p1.o obj/Debug/functions/p1n1.o obj/Debug/functions/p1n2.o obj/Debug/functions/p1n3.o obj/Debug/functions/psi.o obj/Debug/functions/psi_prime.o obj/Debug/functions/R.o obj/Debug/functions/sigma1n2.o obj/Debug/functions/sigma1n3.o obj/Debug/kernels/reduction_sum.o obj/Debug/kernels/reduction_variance.o obj/Debug/main.o
